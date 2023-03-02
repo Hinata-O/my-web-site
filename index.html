@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Company</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <header id="header">
+      
+      <h2><i class="bi bi-building"> </i>My Company</h2>      
+        <nav>
+          <ul>
+            <li><a href="#about"><i class="bi bi-menu-up"></i> About</a></li>
+            <li><a href="#Office"><i class="bi bi-pc-display-horizontal"></i> Office</a></li>
+            <li><a href="#news"><i class="bi bi-newspaper"></i> News</a></li>
+            <!-- <li><a href="#FAQ"><i class="bi bi-question-square"></i>FAQ</a></li> -->
+            <li><a href="#contact"><i class="bi bi-person-rolodex"></i> Contact</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">
+              <i class="bi bi-instagram"></i> instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="">
+          <img src="img/../company.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title"><i class="bi bi-menu-up"></i> About</i></h2>
+        <ul>
+          <li>会社名　株式会社○○</li>
+          <li>住所　福岡県福岡市○○区</li>
+          <li>電話番号　０８０ー○○○○ー○○○○</li>
+          <li>メール　○○○○@○○○○.jp</li>
+        </ul>
+        <p>
+          会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  会社紹介  
+        </p>
+      </section>
+
+      <section id="Office" class="wrapper" class="carousel">
+        <div class="container">
+
+          <h2 class="sec-title"><i class="bi bi-pc-display-horizontal"></i> Office</h2>
+          <ul>
+            <li><img src="img/../office_1.jpg" alt="テキストテキストテキスト"></li>
+            <li><img src="img/../office_2.jpg" alt="テキストテキストテキスト"></li>
+            <li><img src="img/../office_3.jpg" alt="テキストテキストテキスト"></li>
+            <li><img src="img/../office_4.jpg" alt="テキストテキストテキスト"></li>
+            <li><img src="img/../office_5.jpg" alt="テキストテキストテキスト"></li>
+            <li><img src="img/../office_6.jpg" alt="テキストテキストテキスト"></li>
+          </ul>
+          
+          <button id="prev">&laquo</button>
+          <button id="next">&raquo</button>
+        </div>
+
+        <nav>
+        </nav>
+      </section>
+
+      <section id="news" class="wrapper">
+        <h2 class="sec-title"><i class="bi bi-newspaper"></i> News</h2>
+        <dl>
+          <dt>2022.XX.XX</dt>
+          <dd>News</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>News</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>News</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>News</dd>
+          <dt>2022.XX.XX</dt>
+          <dd>News</dd>
+        </dl>
+      </section>
+
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title"><i class="bi bi-person-rolodex"></i> Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2023 MyCompany</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
